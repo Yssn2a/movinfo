@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
   if (currentPage === "index.html") {
    
     document.querySelector('[data-page="search"]').addEventListener('click', function () {
-      window.location.href = 'yssn2a.github.io/movinfo/Search/search.html';
+      window.location.href = '/movinfo/Search/search.html';
     });
 
     
     document.querySelector('[data-page="latest"]').addEventListener('click', function () {
-      window.location.href = 'yssn2a.github.io/movinfo/Popular/popular.html';
+      window.location.href = '/movinfo/Popular/popular.html';
     });
   }
 });
